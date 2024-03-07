@@ -1,0 +1,49 @@
+header{
+    
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+Header div{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+
+.header_logo{
+    width: 200px;
+    padding: 1em 2em;
+    
+}
+
+.menu_esquerda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_esquerda a{
+    padding: auto 2em;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.menu_direita{
+    margin-right: 3em;
+    cursor: pointer;
+}
+
+.menu_direita a .pesquisar, .menu_direita a .notificacoes, .menu_direita a .perfil{
+    width: 40px;
+    padding: 0 .5em;
+}
+
+.menu_direita a .menu_cascata{
+    width: 20px;
+
+}

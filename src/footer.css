@@ -1,0 +1,52 @@
+footer{
+    color: var(--cinza);
+}
+
+footer img{
+    width: 30px;
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+.footer_redes{
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.footer_links{
+    
+    padding: 1.5em 0 3em 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15em;
+}
+
+.footer_links a:hover{
+    text-decoration: underline;
+}
+
+
+.footer_links div{
+    font-weight: 700;
+    font-size: .7em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.codigo{
+    cursor: pointer;
+    font-weight: 700;
+    padding: .5em;
+    border: 1px solid var(--cinza);
+}
+
+footer span{
+    padding-bottom: 2em;
+    display: block;
+    font-size: .7em;
+    font-weight: 700;
+    margin-top: 5em;
+}
